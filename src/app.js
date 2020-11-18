@@ -16,7 +16,6 @@ store.dispatch(addExpense({description: 'Water Bill', amount: 4500}))
 store.dispatch(addExpense({description: 'Gas Bill', createdAt:1000}))
 store.dispatch(addExpense({description: 'rent', amount: 109500}))
 
-//store.dispatch(setFilterText('bill'))
 
 const jsx = (
     <Provider store={store}>
